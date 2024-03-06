@@ -1,0 +1,5 @@
+v1 - only hindi and english movies
+- User will enter the name of the movie that he watched <- input
+- Get the name of the movie that is closest to the input
+- Criteria 1 : Try searching the same director and then same genre and return the movie with the highest score
+- Criteria 2 : If same director not found, then search the same genre and return the movie with the highest score
