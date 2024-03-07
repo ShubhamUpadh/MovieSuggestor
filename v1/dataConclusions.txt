@@ -1,0 +1,10 @@
+
+en | la | ko | es | no | cn | ja | hi | fi | ru | uk | nl | it | zh | bn | th | id | is | da | fr | pl | te | pt | de | ro |
+tl | ta | ar | el | sr | sv | gl | tr | vi | ml | lv | bs | fa | ga | nb | mk | pa | cs | eu | kn | ca | xx | sh | km | gu |
+he | hu | hr | dz | ne | ka | ms | mn | kk | mr | si | af | sl | et | bo | sk | wo | ur | hy | se | sq | kl | su | ku | eo |
+sw | mi | cy | as | lt | ps | qu | bm | rw | uz | bg | am | lo | iu | zu | os | xh | ak | yi | mt | yo | my | ay | ff | st |
+jv | ha | gn | lb | az | gd | or | mo | ln | ky | be | sa | tg | ug | ie | rm | co | sm | fo | tw | nn | ti | ab | fy | tk |
+so | lg | ht | ba | mg | ks | ss | dv | tt | ia | cr | ny | ig | ce | bi | ii | sn | nv | oj | cv | fj | tn | sg | to | ch |
+sc | li | sd | ty | mh | za | ki | pi | gv | kw | oc | om | ts | rn |
+
+All the movies here have only one single original language
