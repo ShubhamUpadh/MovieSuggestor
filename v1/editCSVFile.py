@@ -25,11 +25,16 @@ df2 = df1[df1['original_language'].str.lower().isin(['en','hi'])]
 print(df2['title'].head())
 
 df2.to_csv("releasedMovieEnHi.csv",index=False)
-'''
+
 df3 = pd.read_csv("releasedMovieEnHi.csv")
 df3['release_date'] = pd.to_datetime(df3['release_date'])
 cutoffDate = datetime.now() - timedelta(365.25*30)      # 30 represents that cutoff date is last 30 years
 
 df4 = df3[df3['release_date']>=cutoffDate]
 df4.to_csv("releasedMoviesEnHiLast30Years.csv",index=False)
-
+'''
+df5 = pd.read_csv('releasedMoviesEnHiLast30Years.csv')
+for column in df5.columns:
+    print(column)
+    print(df5[column].head())
+    print("\n")

@@ -1,21 +1,21 @@
 
-id
+id          <- primary key of their table
 title
-genres
+genres      <- contains more than one value 
 original_language
-overview
+overview    <- Summary of the plot
 popularity
 production_companies
 release_date
 budget
-revenue
-runtime
-status
-tagline
-vote_average
-vote_count
-credits
-keywords
+revenue     <- can we organise the date in form that our user wants to watch movies with more revenue / budget
+runtime     
+status      <- released
+tagline     
+vote_average    
+vote_count  <- good vote count movies at the top
+credits     <- actors / director
+keywords    <- will be imprtant for training our model ?
 poster_path
 backdrop_path
 recommendations

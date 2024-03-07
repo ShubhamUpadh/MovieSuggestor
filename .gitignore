@@ -4,3 +4,5 @@ virtualEnv/
 v1/releasedMovies.csv
 v1/releasedMovieEnHi.csv
 v1/releasedMoviesEnHiLast30Years.csv
+v1/processedMovieNames.csv
+v1/cleanedMovieTitles.csv
