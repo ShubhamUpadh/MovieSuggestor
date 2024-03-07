@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 '''
 currentDate = datetime.now()
 df = pd.read_csv('movies.csv')
@@ -26,3 +26,10 @@ print(df2['title'].head())
 
 df2.to_csv("releasedMovieEnHi.csv",index=False)
 '''
+df3 = pd.read_csv("releasedMovieEnHi.csv")
+df3['release_date'] = pd.to_datetime(df3['release_date'])
+cutoffDate = datetime.now() - timedelta(365.25*30)      # 30 represents that cutoff date is last 30 years
+
+df4 = df3[df3['release_date']>=cutoffDate]
+df4.to_csv("releasedMoviesEnHiLast30Years.csv",index=False)
+
