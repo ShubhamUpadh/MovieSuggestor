@@ -22,9 +22,10 @@ def preprocess(text):
     stemmer = PorterStemmer()
     tokens = [stemmer.stem(word) for word in tokens]
     return "".join(tokens)
-
+''' I have commented this <- no need to run again for movie titles
 df['processedTitle'] = df['title'].apply(preprocess)
 
 print(df['processedTitle'].head())
 
 df.to_csv('processedMovieNames.csv')
+'''
